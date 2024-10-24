@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav {
+    display: flex;
+    gap: 15px;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+.contact-info {
+    font-size: 14px;
+    text-align: right;
+}
+.main-banner {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 20px;
+}
+.main-banner h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.services, .team, .what-we-do {
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.services .service-item, .what-we-do .item, .team .team-member {
+    flex: 1 1 22%; 
+    max-width: 22%;
+    min-width: 200px;
+}
+.team .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
